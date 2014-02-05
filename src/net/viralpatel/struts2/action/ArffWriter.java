@@ -24,15 +24,15 @@ public class ArffWriter {
 	private void init() {
 		try {
 			MOTS_DROLES = Files.readAllLines(
-					Paths.get("/home/alexis/Documents/Projets/WebAppGit/WebTweetDrole/input/listeMotsHumour.txt"),
+					Paths.get("/home/alexis/git/WebTweetDrole/input/listeMotsHumour.txt"),
 					Charset.forName("UTF-8"));
-			SMILEYS = Files.readAllLines(Paths.get("/home/alexis/Documents/Projets/WebAppGit/WebTweetDrole/input/listeSmileys.txt"),
+			SMILEYS = Files.readAllLines(Paths.get("/home/alexis/git/WebTweetDrole/input/listeSmileys.txt"),
 					Charset.forName("UTF-8"));
 			ARGOT_TWITTER = Files.readAllLines(
-					Paths.get("/home/alexis/Documents/Projets/WebAppGit/WebTweetDrole/input/listeArgotTwitter.txt"),
+					Paths.get("/home/alexis/git/WebTweetDrole/input/listeArgotTwitter.txt"),
 					Charset.forName("UTF-8"));
 			PONCTUATION = Files.readAllLines(
-					Paths.get("/home/alexis/Documents/Projets/WebAppGit/WebTweetDrole/input/listePonctuation.txt"),
+					Paths.get("/home/alexis/git/WebTweetDrole/input/listePonctuation.txt"),
 					Charset.forName("UTF-8"));
 
 		} catch (IOException e) {
